@@ -34,6 +34,7 @@ class Human(Mammals):
         self.name = name
         print(name, "is a human.")
         super().feeding()
+        super().__init__(name)
 
 
 cat1 = Cat("Lolek")

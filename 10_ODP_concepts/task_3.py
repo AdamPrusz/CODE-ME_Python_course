@@ -18,7 +18,5 @@ class PenPinapple(Pen, Pinapple):
         super().scream()
 
 
-
-
 if __name__ == '__main__':
     pppp = PenPinapple()
